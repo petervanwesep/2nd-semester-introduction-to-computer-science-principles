@@ -6,7 +6,7 @@ Associated Readings adapted from [**Think Python - How To Think Like A Computer 
 
 A value is one of the basic things a program works with, like a letter or a number. The values we have seen so far are 1, 2, and 'Hello, World!'.
 
-These values belong to different types: 2 is an integer, and 'Hello, World!' is a string, so-called because it contains a “string” of letters. You (and the interpreter) can identify strings because they are enclosed in quotation marks.
+These values belong to different types: 2 is an integer, and 'Hello, World!' is a string, so-called because it contains a "string" of letters. You (and the interpreter) can identify strings because they are enclosed in quotation marks.
 
 If you are not sure what type a value has, the interpreter can tell you.
 
@@ -42,7 +42,7 @@ When you type a large integer, you might be tempted to use commas between groups
 (1, 0, 0)
 ```
 
-Well, that’s not what we expected at all! Python interprets 1,000,000 as a comma-separated sequence of integers. This is the first example we have seen of a semantic error: the code runs without producing an error message, but it doesn’t do the “right” thing.
+Well, that’s not what we expected at all! Python interprets 1,000,000 as a comma-separated sequence of integers. This is the first example we have seen of a semantic error: the code runs without producing an error message, but it doesn’t do the "right" thing.
 
 ### Operators and Operands
 
@@ -176,11 +176,11 @@ The problem is that the program you wrote is not the program you wanted to write
 One of the most important skills you will acquire is debugging. Although it can be frustrating, debugging is one of the most intellectually rich, challenging, and interesting parts of programming.
 In some ways, debugging is like detective work. You are confronted with clues, and you have to infer the processes and events that led to the results you see.
 
-Debugging is also like an experimental science. Once you have an idea about what is going wrong, you modify your program and try again. If your hypothesis was correct, then you can predict the result of the modification, and you take a step closer to a working program. If your hypothesis was wrong, you have to come up with a new one. As Sherlock Holmes pointed out, “When you have eliminated the impossible, whatever remains, however improbable, must be the truth.” (A. Conan Doyle, The Sign of Four)
+Debugging is also like an experimental science. Once you have an idea about what is going wrong, you modify your program and try again. If your hypothesis was correct, then you can predict the result of the modification, and you take a step closer to a working program. If your hypothesis was wrong, you have to come up with a new one. As Sherlock Holmes pointed out, "When you have eliminated the impossible, whatever remains, however improbable, must be the truth." (A. Conan Doyle, The Sign of Four)
 
 For some people, programming and debugging are the same thing. That is, programming is the process of gradually debugging a program until it does what you want. The idea is that you should start with a program that does something and make small modifications, debugging them as you go, so that you always have a working program.
 
-For example, Linux is an operating system that contains thousands of lines of code, but it started out as a simple program Linus Torvalds used to explore the Intel 80386 chip. According to Larry Greenfield, “One of Linus’s earlier projects was a program that would switch between printing AAAA and BBBB. This later evolved to Linux.” (The Linux Users’ Guide Beta Version 1).
+For example, Linux is an operating system that contains thousands of lines of code, but it started out as a simple program Linus Torvalds used to explore the Intel 80386 chip. According to Larry Greenfield, "One of Linus’s earlier projects was a program that would switch between printing AAAA and BBBB. This later evolved to Linux." (The Linux Users’ Guide Beta Version 1).
 
 # Unit 2
 
@@ -190,7 +190,7 @@ For example, Linux is an operating system that contains thousands of lines of co
 
 A value is one of the basic things a program works with, like a letter or a number. The values we have seen so far are `1`, `2`, and `'Hello, World!'`.
 
-These values belong to different types: 2 is an integer, and `'Hello, World!'` is a string, so-called because it contains a “string” of letters. You (and the interpreter) can identify strings because they are enclosed in quotation marks.
+These values belong to different types: 2 is an integer, and `'Hello, World!'` is a string, so-called because it contains a "string" of letters. You (and the interpreter) can identify strings because they are enclosed in quotation marks.
 
 If you are not sure what type a value has, the interpreter can tell you.
 ```
@@ -216,7 +216,7 @@ When you type a large integer, you might be tempted to use commas between groups
 >>> 1,000,000
 (1, 0, 0)
 ```
-Well, that’s not what we expected at all! Python interprets 1,000,000 as a comma-separated sequence of integers. This is an example we have seen of a semantic error: the code runs without producing an error message, but it doesn’t do the “right” thing.
+Well, that’s not what we expected at all! Python interprets 1,000,000 as a comma-separated sequence of integers. This is an example we have seen of a semantic error: the code runs without producing an error message, but it doesn’t do the "right" thing.
 
 ### Exercises
 
@@ -293,7 +293,7 @@ The `or` expression is true whenever one of the operands is true and the `and` e
 
 Finally, the not operator negates a boolean expression, so `not (x > y)` is true if `x > y` is false, that is, if `x` is less than or equal to `y`.
 
-Strictly speaking, the operands of the logical operators should be boolean expressions, but Python is not very strict. Any nonzero number is interpreted as “true.”
+Strictly speaking, the operands of the logical operators should be boolean expressions, but Python is not very strict. Any nonzero number is interpreted as "true."
 ```
 >>> 17 and True
 True
@@ -341,7 +341,7 @@ else:
     print('x and y are equal')
 ```
 
-elif is an abbreviation of “else if.” Again, exactly one branch will be executed. There is no limit on the number of elif statements. If there is an else clause, it has to be at the end, but there doesn’t have to be one.
+elif is an abbreviation of "else if." Again, exactly one branch will be executed. There is no limit on the number of elif statements. If there is an else clause, it has to be at the end, but there doesn’t have to be one.
 ```
 if choice == 'a':
     draw_a()
@@ -424,11 +424,11 @@ Unlike strings, lists are mutable. When the bracket operator appears on the left
 ```
 
 The one-eth element of numbers, which used to be 123, is now 5.
-You can think of a list as a relationship between indices and elements. This relationship is called a mapping; each index “maps to” one of the elements. Figure 10.1 shows the state diagram for cheeses, numbers and empty:
+You can think of a list as a relationship between indices and elements. This relationship is called a mapping; each index "maps to" one of the elements. Figure 10.1 shows the state diagram for cheeses, numbers and empty:
 ![](http://www.greenteapress.com/thinkpython/html/thinkpython013.png)
 Figure 10.1: State diagram.
 
-Lists are represented by boxes with the word “list” outside and the elements of the list inside. cheeses refers to a list with three elements indexed 0, 1 and 2. numbers contains two elements; the diagram shows that the value of the second element has been reassigned from 123 to 5. empty refers to a list with no elements.
+Lists are represented by boxes with the word "list" outside and the elements of the list inside. cheeses refers to a list with three elements indexed 0, 1 and 2. numbers contains two elements; the diagram shows that the value of the second element has been reassigned from 123 to 5. empty refers to a list with no elements.
 
 List indices work the same way as string indices:
 
@@ -535,7 +535,7 @@ while n > 0:
     n = n-1
 print('Blastoff!')
 ```
-You can almost read the while statement as if it were English. It means, “While n is greater than 0, display the value of n and then reduce the value of n by 1. When you get to 0, display the word Blastoff!”
+You can almost read the while statement as if it were English. It means, "While n is greater than 0, display the value of n and then reduce the value of n by 1. When you get to 0, display the word Blastoff!"
 More formally, here is the flow of execution for a while statement:
 
 1. Evaluate the condition, yielding True or False.
@@ -544,7 +544,7 @@ More formally, here is the flow of execution for a while statement:
 
 This type of flow is called a loop because the third step loops back around to the top.
 
-The body of the loop should change the value of one or more variables so that eventually the condition becomes false and the loop terminates. Otherwise the loop will repeat forever, which is called an infinite loop. An endless source of amusement for computer scientists is the observation that the directions on shampoo, “Lather, rinse, repeat,” are an infinite loop.
+The body of the loop should change the value of one or more variables so that eventually the condition becomes false and the loop terminates. Otherwise the loop will repeat forever, which is called an infinite loop. An endless source of amusement for computer scientists is the observation that the directions on shampoo, "Lather, rinse, repeat," are an infinite loop.
 
 In the case of countdown, we can prove that the loop terminates because we know that the value of n is finite, and we can see that the value of n gets smaller each time through the loop, so eventually we have to get to 0. In other cases, it is not so easy to tell:
 ```
@@ -566,7 +566,7 @@ The hard question is whether we can prove that this program terminates for all p
 ## 3.1
 ###Function calls
 
-In the context of programming, a function is a named sequence of statements that performs a computation. When you define a function, you specify the name and the sequence of statements. Later, you can “call” the function by name. We have already seen one example of a function call:
+In the context of programming, a function is a named sequence of statements that performs a computation. When you define a function, you specify the name and the sequence of statements. Later, you can "call" the function by name. We have already seen one example of a function call:
 
 ```
 >>> type(32)
@@ -574,7 +574,7 @@ In the context of programming, a function is a named sequence of statements that
 ```
 
 The name of the function is type. The expression in parentheses is called the argument of the function. The result, for this function, is the type of the argument.
-It is common to say that a function “takes” an argument and “returns” a result. The result is called the return value.
+It is common to say that a function "takes" an argument and "returns" a result. The result is called the return value.
 
 ###Type conversion functions
 
@@ -832,7 +832,7 @@ def area(radius):
     temp = math.pi * radius**2
     return temp
  ```
-This statement means: “Return immediately from this function and use the following expression as a return value.” The expression can be arbitrarily complicated, so we could have written this function more concisely:
+This statement means: "Return immediately from this function and use the following expression as a return value." The expression can be arbitrarily complicated, so we could have written this function more concisely:
 
 ```
 def area(radius):
@@ -1091,7 +1091,7 @@ Pack
 Qack
 ```
 
-Of course, that’s not quite right because “Ouack” and “Quack” are misspelled.
+Of course, that’s not quite right because "Ouack" and "Quack" are misspelled.
 
 ####Exercise 2
 Modify the program to fix this error.
@@ -1151,7 +1151,7 @@ def is_reverse(word1, word2):
 The first if statement checks whether the words are the same length. If not, we can return False immediately and then, for the rest of the function, we can assume that the words are the same length. This is an example of the guardian pattern in Section 6.8.
 i and j are indices: i traverses word1 forward while j traverses word2 backward. If we find two letters that don’t match, we can return False immediately. If we get through the whole loop and all the letters match, we return True.
 
-If we test this function with the words “pots” and “stop”, we expect the return value True, but we get an IndexError:
+If we test this function with the words "pots" and "stop", we expect the return value True, but we get an IndexError:
 
 ```
 >>> is_reverse('pots', 'stop')
@@ -1450,7 +1450,7 @@ Defining a class named Point creates a class object.
 <class '__main__.Point'>
 ```
 
-Because Point is defined at the top level, its “full name” is __main__.Point.
+Because Point is defined at the top level, its "full name" is __main__.Point.
 The class object is like a factory for creating objects. To create a Point, you call Point as if it were a function.
 
 ```
@@ -1472,7 +1472,7 @@ You can assign values to an instance using dot notation:
 ```
 
 This syntax is similar to the syntax for selecting a variable from a module, such as math.pi or string.whitespace. In this case, though, we are assigning values to named elements of an object. These elements are called attributes.
-As a noun, “AT-trib-ute” is pronounced with emphasis on the first syllable, as opposed to “a-TRIB-ute,” which is a verb.
+As a noun, "AT-trib-ute" is pronounced with emphasis on the first syllable, as opposed to "a-TRIB-ute," which is a verb.
 
 You can read the value of an attribute using the same syntax:
 
@@ -1484,7 +1484,7 @@ You can read the value of an attribute using the same syntax:
 3.0
 ```
 
-The expression blank.x means, “Go to the object blank refers to and get the value of x.” In this case, we assign that value to a variable named x. There is no conflict between the variable x and the attribute x.
+The expression blank.x means, "Go to the object blank refers to and get the value of x." In this case, we assign that value to a variable named x. There is no conflict between the variable x and the attribute x.
 You can use dot notation as part of any expression. For example:
 
 ```
@@ -1545,7 +1545,7 @@ box.corner.x = 0.0
 box.corner.y = 0.0
 ```
 
-The expression box.corner.x means, “Go to the object box refers to and select the attribute named corner; then go to that object and select the attribute named x.”
+The expression box.corner.x means, "Go to the object box refers to and select the attribute named corner; then go to that object and select the attribute named x."
 
 ### Instances as return values
 
@@ -1608,7 +1608,7 @@ Write a function named move_rectangle that takes a Rectangle and two numbers nam
 
 ### The init method
 
-The init method (short for “initialization”) is a special method that gets invoked when an object is instantiated. Its full name is __init__ (two underscore characters, followed by init, and then two more underscores). An init method for the Time class might look like this:
+The init method (short for "initialization") is a special method that gets invoked when an object is instantiated. Its full name is __init__ (two underscore characters, followed by init, and then two more underscores). An init method for the Time class might look like this:
 
 ```
 class Time(object):
@@ -1720,9 +1720,9 @@ class Time(object):
 ```
 
 The reason for this convention is an implicit metaphor:
-The syntax for a function call, print_time(start), suggests that the function is the active agent. It says something like, “Hey print_time! Here’s an object for you to print.”
+The syntax for a function call, print_time(start), suggests that the function is the active agent. It says something like, "Hey print_time! Here’s an object for you to print."
 
-In object-oriented programming, the objects are the active agents. A method invocation like start.print_time() says “Hey start! Please print yourself.”
+In object-oriented programming, the objects are the active agents. A method invocation like start.print_time() says "Hey start! Please print yourself."
 This change in perspective might be more polite, but it is not obvious that it is useful. In the examples we have seen so far, it may not be. But sometimes shifting responsibility from the functions onto the objects makes it possible to write more versatile functions, and makes it easier to maintain and reuse code.
 
 #### Exercise
@@ -1833,9 +1833,9 @@ Write an add method for the Point class.
 ### Inheritance
 The language feature most often associated with object-oriented programming is inheritance. Inheritance is the ability to define a new class that is a modified version of an existing class.
 
-It is called “inheritance” because the new class inherits the methods of the existing class. Extending this metaphor, the existing class is called the parent and the new class is called the child.
+It is called "inheritance" because the new class inherits the methods of the existing class. Extending this metaphor, the existing class is called the parent and the new class is called the child.
 
-As an example, let’s say we want a class to represent a “hand,” that is, the set of cards held by one player. A hand is similar to a deck: both are made up of a set of cards, and both require operations like adding and removing cards.
+As an example, let’s say we want a class to represent a "hand," that is, the set of cards held by one player. A hand is similar to a deck: both are made up of a set of cards, and both require operations like adding and removing cards.
 
 A hand is also different from a deck; there are operations we want for hands that don’t make sense for a deck. For example, in poker we might compare two hands to see which one wins. In bridge, we might compute a score for a hand in order to make a bid.
 
@@ -1898,8 +1898,8 @@ They are also highly detailed; for some purposes, too detailed. A class diagram 
 
 There are several kinds of relationship between classes:
 
-Objects in one class might contain references to objects in another class. For example, each Rectangle contains a reference to a Point, and each Deck contains references to many Cards. This kind of relationship is called HAS-A, as in, “a Rectangle has a Point.”
-One class might inherit from another. This relationship is called IS-A, as in, “a Hand is a kind of a Deck.”
+Objects in one class might contain references to objects in another class. For example, each Rectangle contains a reference to a Point, and each Deck contains references to many Cards. This kind of relationship is called HAS-A, as in, "a Rectangle has a Point."
+One class might inherit from another. This relationship is called IS-A, as in, "a Hand is a kind of a Deck."
 One class might depend on another in the sense that changes in one class would require changes in the other.
 A class diagram is a graphical representation of these relationships. For example, Figure 6.1 shows the relationships between Card, Deck and Hand.
 !(Class Diagram)[http://www.greenteapress.com/thinkpython/html/thinkpython026.png]
@@ -1935,7 +1935,7 @@ Here’s an example:
 ```
 
 So the shuffle method for this Hand is the one in Deck.
-find_defining_class uses the mro method to get the list of class objects (types) that will be searched for methods. “MRO” stands for “method resolution order.”
+find_defining_class uses the mro method to get the list of class objects (types) that will be searched for methods. "MRO" stands for "method resolution order."
 
 Here’s a program design suggestion: whenever you override a method, the interface of the new method should be the same as the old. It should take the same parameters, return the same type, and obey the same preconditions and postconditions. If you obey this rule, you will find that any function designed to work with an instance of a superclass, like a Deck, will also work with instances of subclasses like a Hand or PokerHand.
 

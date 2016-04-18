@@ -4,9 +4,9 @@ Create a basic [EarSketch] project using the following requirements:
 
 * Open the Earsketch DAW and log in.
 
-* Click “Options – Save Script to Cloud” and set a name for your song.
+* Click "Options – Save Script to Cloud" and set a name for your song.
 
-* In comments at the top of your code, include your name, the name of the song (e.g. “Lab 5.01”), and a brief, clear description of the project.
+* In comments at the top of your code, include your name, the name of the song (e.g. "Lab 5.01"), and a brief, clear description of the project.
 
 * Set the tempo of the project to 140 BPM.
 
@@ -32,6 +32,6 @@ Create a basic [EarSketch] project using the following requirements:
 
 
 #### Copyright Note
-The above is taken from the EarSketch teaching resources. 
+The above is taken from the EarSketch teaching resources.
 
 [EarSketch]: http://earsketch.gatech.edu/earsketch2/

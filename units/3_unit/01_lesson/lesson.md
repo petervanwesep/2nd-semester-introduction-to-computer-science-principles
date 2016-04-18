@@ -1,7 +1,7 @@
 # Lesson 3.01: Built-In Functions
 
 ##Learning Objectives
-Students will be able to... 
+Students will be able to...
 * Define and identify: **function, arguments, calling, importing, returning**
 * Call the built-in `randint` function, using arguments
 * Utilize code other people have written in the Python documentation
@@ -28,13 +28,13 @@ Students will be able to...
 2. **Lesson**
     * Build Your Own Blocks vs Functions
  	    * Ask students to recall how they built custom blocks in Snap! ![Snap Custom Block](https://i.ytimg.com/vi/Bbl2fh3igQ4/maxresdefault.jpg)
- 	    * **Function**:  a named sequence of statements. You can use functions to perform complex calculations, graphical operations, and various other purposes. When you define a function, you specify the name and the sequence of statements. Later, you can “**call**” the function by name. 
+ 	    * **Function**:  a named sequence of statements. You can use functions to perform complex calculations, graphical operations, and various other purposes. When you define a function, you specify the name and the sequence of statements. Later, you can "**call**" the function by name.
         * In SNAP! functions are blocks
         * A function definition is like a contract: you tell the programmer what elements the function expects (name and type of arguments) and the function will perform its purpose. It is good practice to use a comment to specify the purpose and contract of a function, including the type of value it returns, if it returns a value
         * Explain that we have already gotten used to **calling** functions like `type()` and `print()`.
-    * Ask students how they would create a random number generator. 
-        * Sounds hard! Luckily someone has already done that: the random library (essentially a bunch of code written by someone else) which has many associated functions. 
-            * Random in Snap ![Random in Snap](http://bjc.berkeley.edu/bjc-r/img/lab-10/random-tree-buggy-code-snap.png) 
+    * Ask students how they would create a random number generator.
+        * Sounds hard! Luckily someone has already done that: the random library (essentially a bunch of code written by someone else) which has many associated functions.
+            * Random in Snap ![Random in Snap](http://bjc.berkeley.edu/bjc-r/img/lab-10/random-tree-buggy-code-snap.png)
         * Remind students what they saw in the Do Now - how to get a random integer: randint(0, 10).
             * Identify the 0 and 10 in this example as **arguments**, or values passed into the function.
   		    * Ask students what the argument is when we use `print` or `type`
@@ -42,15 +42,15 @@ Students will be able to...
     * Contract
         * Functions have a contract: you write down the arguments, their type, and the return type expected.
             * Ask students what the contract of `randint` is.
-                * 2 values, of type integer, with an integer returned 
+                * 2 values, of type integer, with an integer returned
             * Since `randint` is written by someone else there is a place where that contract is written out - **Documentation**. Have students begin the lab, which will instruct them to find the Python documentation for the random library.
- 
+
 3. **Lab**
     * Students look through `random` library documentation, practice importing different random functions and using them.
-    * Create a Magic 8-ball program using a list and `randint`. 
+    * Create a Magic 8-ball program using a list and `randint`.
 
 4. **Debrief**
-    * Check student progress and completion of the lab, wrap up by taking any final questions. 
+    * Check student progress and completion of the lab, wrap up by taking any final questions.
 
 ###Accommodation/Differentiation
 If students are moving quickly, find another library to import from (see **bonus** in the lab) OR allow students to move on to creating their own functions.

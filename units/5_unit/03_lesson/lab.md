@@ -2,7 +2,7 @@
 
 1.	Write a for loop that repeats the given rhythm every other measure from measures 1 to 8 (e.g. 1, 3, 5, etc.) on track 1.
     * Audio loop constant: HIPHOP_STOMP_BEAT_001
-    * Rhythm: “0---0-0-00000+++”
+    * Rhythm: "0---0-0-00000+++"
 
 2. Create an EarSketch script using the following requirements. Include your name and a description in comments at the top of the file.
 
@@ -19,5 +19,5 @@
 
 
 #### Copyright Note
-The above is taken from the earsketch teaching resources. 
+The above is taken from the earsketch teaching resources.
 

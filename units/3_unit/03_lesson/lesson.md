@@ -52,7 +52,14 @@ Students will be able to...
             * If they don't figure it out, remind them that the caller of a function receives the returned value.
             * Student should hand the card to the person who called them.
         * Further exploration: How would we print out the value of the card after it is returned?
-    	* Debrief the activity and talk about what was learned.
+        * Debrief the activity and talk about what was learned.
+        * Optional: **Follow-up Lab**
+            * Using [this code](https://gist.github.com/petervanwesep/451de0a3b37d8cde94b7515b8930d425), implement the following two functions:
+                * `gimme_a_suit` should require no input and should randomly return one of the four possible suits.
+                * `gimme_a_card_value` should require no input and should randomly return one of the 13 possible card values.
+            * Rewrite the `gimme_a_card` function to use these two new functions.
+            * **Hint:** You won't need the old deck anymore, but the rest of `gimme_a_card` could be useful in your new functions.
+
 3. **Lab**
     * Given a shuffled deck list, students will create a program that plays the game 'War' with the user.
 

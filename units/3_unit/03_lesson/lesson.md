@@ -35,22 +35,21 @@ Students will be able to...
         * ![BJC Reporint](http://bjc.berkeley.edu/bjc-r/img/building-blocks/max-code-buggy.png)
     * If students appear to be struggling with the return vs. print concept, try this activity:
         * Introduction to "Gimme a Card" Activity
-            * Show them [this code](https://gist.githubusercontent.com/petervanwesep/e2c4a7201929f4bd864872e6fd574f5f/raw/2dc98f880dd423d974d9d7a7a5e4144cd78e2134/lesson_3_03.py) representing a single suit from a deck of cards.
+            * Show the students [this code](https://gist.githubusercontent.com/petervanwesep/e2c4a7201929f4bd864872e6fd574f5f/raw/2dc98f880dd423d974d9d7a7a5e4144cd78e2134/lesson_3_03.py) representing a single suit from a deck of cards.
             * Ask students what is represented by the variable `deck`.
         * Play the game
             * With the students' assistance, write the [gimme_a_card() function](https://gist.githubusercontent.com/petervanwesep/503e33f80a5b28c33d7fcebee77fde27/raw/5f37b0a36cad8703a915a99cc05e30ca4d4caff7/lesson_3_03.py) to **print** a random card from the deck.
             * Get one volunteer to play the `gimme_a_card` function and another to play `randint`.
-            * Use the board to write output.
+            * Give a (physical) deck of sorted cards to the student playing the function, only including the cards from the programmed `deck`.
             * One student from the class should "call" the function (by saying "Gimme a card!")
             * The student playing the function will in turn need to call `randint`
-            * Trace through the function you wrote together.
-            * Do this a few times.
+            * Trace through the function you wrote together, using the board/projector to write down output.
+            * Repeat two or three times.
         * Change the function to **return** a card instead of printing it out
-            * Give a (physical) deck of sorted cards to the student playing the function, only including the cards from the programmed `deck`.
-            * Have another student "call" the function, then trace through again as a class.
+            * Have another student "call" the function, then trace through it again as a class.
             * When the student reaches the `return` let them think for a moment about what they should do next.
-            * If they don't figure it out, remind them that the caller of a function receives the returned value.
-            * Student should hand the card to the person who called them.
+            * If they don't figure it out, remind them that the **caller** of a function receives the returned value.
+            * Student should then hand the card to the person who called them.
         * Further exploration: How would we print out the value of the card after it is returned?
         * Debrief the activity and talk about what was learned.
         * Optional: **Follow-up Lab**
@@ -59,6 +58,7 @@ Students will be able to...
                 * `gimme_a_card_value` should require no input and should randomly return one of the 13 possible card values.
             * Rewrite the `gimme_a_card` function to use these two new functions.
             * **Hint:** You won't need the old deck anymore, but the rest of `gimme_a_card` could be useful in writing your new functions.
+            * Further exploration: Write a method `gimme_a_list_value` that takes a list and returns a random element from that list. Re-write `gimme_a_suit` and `gimme_a_card_value` to use this new function.
 
 3. **Lab**
     * Given a shuffled deck list, students will create a program that plays the game 'War' with the user.
